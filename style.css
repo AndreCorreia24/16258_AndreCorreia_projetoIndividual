@@ -1,0 +1,393 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f1e8; 
+  color: #3d2e21; 
+  line-height: 1.6;
+  margin: 0 60px auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  }
+
+/* ---------- Header ---------- */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+   font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+header h1 {
+  font-size: 30px;
+  font-weight: 600;
+   font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+nav {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #3d2e21;
+ font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: larger;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Títulos e imagem ---------- */
+.intro h2 {
+  font-size: 86px;
+  color: #3d2e21;
+  margin-bottom: 0.2rem;
+  margin-top: 20px;
+}
+
+.title2 { 
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-e-imagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap; 
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.titulo-e-imagem h3 {
+  font-size: 120px;
+  color: #2e7d32;
+  font-style: italic;
+  margin: 0;
+  align-content: flex-start;
+}
+
+.titulo-e-imagem .logo-grande img {
+  width: 500px;
+  height: auto;
+}
+
+/* ---------- Parágrafos ---------- */
+.intro p {
+  margin-bottom: 2rem;
+  text-align: justify;
+  font-size: 25px;
+    margin-top: 80px;
+   padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 100px;
+  margin-top: 160px;
+  
+}
+
+
+/* ---------- Secção Participar ---------- */
+.participar {
+  margin-top: 2rem;
+  
+}
+
+.participar h4 {
+  color: #3d2e21; 
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.participar h5 {
+  color: #3d2e21;
+   font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 3rem;
+  margin: 0 ;
+}
+
+/* ---------- Formulário ---------- */
+.formulario {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  height: 300px;
+  width: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  flex: 1;
+  height: 300px;
+  width: auto;
+}
+
+.item {
+  background-color: #3a7541;
+  color: #d9ead3;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 20px;
+  font-size: 25px;
+  height: 70px;
+font-family: inherit;
+}
+
+input::placeholder {
+  color: #d9ead3;
+}
+
+.documentos {
+  flex: 1;
+  flex-direction: column;
+  background-color: #3a7541;
+  border-radius: 20px;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #d9ead3;
+  height: 500px;
+  height: 100%;
+}
+
+.button{
+  display:flex;
+  align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 70px; 
+    margin-top: 20px; 
+    width: 50%;
+    border-radius: 20px;
+    border-color: rgba(255, 255, 255, 0);
+    background-color:#3a7541;
+    color: #d9ead3;
+    float: right;
+    font-family: inherit;
+    font-size: larger;
+  }
+
+.anexo{
+display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  width: 100%;
+}
+.anex{
+   border-color: rgba(255, 255, 255, 0);
+    background-color: antiquewhite;
+    color:#3a7541;
+    float: right;
+    font-family: inherit;
+    font-size: larger;
+    border-radius: 10px;
+    display: flex;
+    padding: 6px 15px;
+    margin-bottom: 15px;
+  cursor: pointer;
+
+}
+/* ---------- Nota ---------- */
+.nota {
+  font-size: 0.9rem;
+  color: #3d2e21;
+  margin-bottom: 1rem;
+  margin-top: 330px;
+  align-items: center;
+}
+
+/* -- Dados adicionais-- */
+.info-adicional{
+  margin-top: 200px;
+   padding-left: 23px;
+  padding-right: 23px;
+  padding-bottom: 100px;
+  margin-top: 160px;
+font-size: 25px;
+ text-align: justify;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1rem;
+  color: #3d2e21;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+  /* ---------- adaptação  ---------- */
+@media screen and (max-width: 480px) {
+
+  body {
+    margin: 0 10px;
+    padding: 0;
+  }
+
+  /* HEADER */
+  header {
+justify-content: space-between;
+    align-items: center;
+    text-align: center; 
+  }
+
+  .logo-area {
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .logo {
+    width: 50px; 
+    height: auto;
+  }
+
+  header h1 {
+    font-size: 23px;
+    font-weight: 600;
+  }
+
+  nav.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  nav.menu a {
+    font-size: 15px;
+    font-weight: 400;
+    justify-content: space-between;
+  }
+
+  /* TÍTULOS E IMAGEM */
+  .intro h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .titulo-e-imagem {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 40px 0;
+  }
+
+  .titulo-e-imagem h3 {
+    font-size: 65px;
+    text-align: center;
+  }
+
+  .titulo-e-imagem .logo-grande img {
+    width: 250px;
+  }
+
+  /* PARÁGRAFOS */
+  .intro p {
+    font-size: 18px;
+    padding: 0 10px;
+    margin: 40px 0;
+    text-align: justify;
+  }
+
+  /* FORMULÁRIO */
+  .participar h4,
+  .participar h5 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .formulario {
+    flex-direction: column;
+    height: auto;
+    gap: 1rem;
+  }
+
+  form {
+    width: 100%;
+    height: auto;
+  }
+
+  .item {
+    font-size: 18px;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  .documentos {
+    width: 93%;
+    font-size: 0.95rem;
+    border-radius: 15px;
+    align-items: center;
+  }
+
+  .button {
+    width: 100%;
+    font-size: 18px;
+    justify-content: center;
+    border-radius: 15px;
+  }
+
+  .anexo {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .anex {
+    font-size: 16px;
+    width: 90%;
+    justify-content: center;
+  }
+
+  /* NOTA */
+  .nota {
+    font-size: 0.9rem;
+    margin-top: 40px;
+    text-align: justify;
+  }
+
+  /* INFORMAÇÃO ADICIONAL */
+  .info-adicional {
+    font-size: 18px;
+    margin-top: 60px;
+    padding: 0 10px 40px 10px;
+    text-align: justify;
+  }
+
+  /* FOOTER */
+  footer {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+}
